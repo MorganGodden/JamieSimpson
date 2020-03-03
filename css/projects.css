@@ -1,0 +1,30 @@
+#gallery { margin-left:calc(50% - 28vh + 15px); width: 100vh; }
+
+
+h2 { 
+    margin-left: 1.5vh; 
+    font-size: 3.25vh;
+    color:white;
+    -webkit-text-stroke:2px #000;
+    text-decoration: none;
+}
+
+
+p { text-align: left; font-size: 1.327vh; }
+
+#leftArrow, #rightArrow { color: transparent; }
+
+#leftArrow { 
+    margin-left:calc(50% - 28vh + 17px);
+    background: linear-gradient(90deg, rgba(255,255,255,.3) 0%, rgba(255,255,255,0) 100%);
+    transition-duration: 1s;}
+#leftArrow:hover { background: linear-gradient(90deg, rgba(255,255,255,.6) 0%, rgba(255,255,255,0) 100%); } 
+
+#rightArrow { 
+    margin-right:calc(50% - 72vh - 17px);
+    background: linear-gradient(-90deg, rgba(255,255,255,.3) 0%, rgba(255,255,255,0) 100%); }
+#rightArrow:hover { background: linear-gradient(-90deg, rgba(255,255,255,.6) 0%, rgba(255,255,255,0) 100%); } 
+
+#leftSidebar {
+    height:60vh; width: calc(44vh + 10px); overflow: hidden;
+    margin-left:calc(50% - 73vh - 15px); margin-top: 0; }

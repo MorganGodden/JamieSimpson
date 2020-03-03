@@ -1,0 +1,51 @@
+#gallery { font-size: 120%;}
+#gallery h3 { 
+    top: 0; margin-top: 4%; margin-bottom: 2%;
+    font-size: 5vh;
+    position: sticky;
+}
+
+h4 { 
+    margin: 0; margin-bottom: 2%;
+    width: calc(42.5vh); display: inline-block;
+    font-size: 2.5vh;
+}
+
+h5 {
+    margin: 0;
+}
+
+#inputText, #msgContainer, button { margin-left: 5% } 
+input, #msg, button { 
+    border: 2px solid lightgray;
+    border-radius: 1vh;
+    font-size: 2vh;
+    
+    outline: none;}
+    
+input:not(#msg) { 
+    float: right;  text-align: center;
+    width: 75%; 
+    border-radius: 1vh; }
+
+#msgContainer {  margin-bottom: 5%; width: 100%;  height: 45%;}
+#msg { 
+    height: 90%;
+    padding: 1vh; 
+    width: calc(90% - 2vh);
+}
+
+button {
+    width: 30vh; height: 5vh;
+    margin: 0; margin-left: calc(100% - 35vh);
+    background: linear-gradient(0deg, rgb(230,230,230) 0% ,white 100%); border: 2px outset lightgray;
+    font-size: 3vh;
+    
+    transition-property:text-shadow background transform text-shadow color margin;
+    transition-duration:.25s;
+}
+
+button:hover {
+    background: linear-gradient(0deg, rgb(224, 187, 31, 0.25) 0% ,white 100%); border: 2px outset lightgray;
+    border-color: #e0bb1f;
+}
